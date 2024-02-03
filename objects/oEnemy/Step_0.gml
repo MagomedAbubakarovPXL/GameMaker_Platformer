@@ -1,19 +1,4 @@
-// Get Player Input
-key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
-key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
-key_jump = keyboard_check_pressed(vk_space);
-
-// Calculate movement
-var move = key_right - key_left;
-
-hsp = move * walksp;
-
 vsp = vsp + grv;
-
-if (place_meeting(x,y+1,oWall)) && (key_jump)
-{
-	vsp = -7;
-}
 
 // Horizontal collision
 if (place_meeting(x+hsp, y, oWall))
@@ -22,7 +7,7 @@ if (place_meeting(x+hsp, y, oWall))
 	{
 		x = x + sign(hsp);
 	}
-	hsp = 0;
+	hsp = -hsp;
 }
 
 x = x + hsp;
@@ -42,17 +27,17 @@ y = y + vsp;
 // Animation
 if(!place_meeting(x,y+1,oWall))
 {
-	sprite_index = sPlayer_jump;	
+	sprite_index = sEnemy_alien_jump;	
 }
 else
 {
 	if (hsp == 0)
 	{
-		sprite_index = sPlayer;	
+		sprite_index = sEnemy_alien_idle;	
 	}
 	else
 	{
-		sprite_index = sPlayer_run;	
+		sprite_index = sEnemy_alien_run;	
 	}
 }
 
