@@ -1,0 +1,13 @@
+tutorial: https://www.youtube.com/watch?v=fCeyiEcWRAs&list=PLPRT_JORnIupqWsjRpJZjG07N01Wsw_GJ&index=3
+
+Hero sprites:
+https://opengameart.org/content/xeon-ultimate-smash-friends
+
+World sprites:
+https://marketplace.gamemaker.io/category/1/sprites
+
+Other sprite resources:
+https://opengameart.org/content/jojo-jambo-free-sprite-pack
+https://craftpix.net/freebies/
+https://www.spriters-resource.com/nes/contra/
+https://itch.io/
