@@ -20,8 +20,7 @@ if(done == 0)
 		if(vsp > 0) 
 		{
 			done = 1;
-			//image_index = 4;
-			//image_speed = 0;
+			startDeathAnimation = true;
 		}
 		while (!place_meeting(x,y+sign(vsp),oWall)) 
 		{
@@ -31,4 +30,16 @@ if(done == 0)
 	}
 
 	y = y + vsp;
+}
+
+// Play dead animation and stop on the last frame
+if(startDeathAnimation)
+{
+    image_speed = 0.5;
+    if(image_index >= 3) 
+    {
+        image_speed = 0; 
+        image_index = 4; 
+        startDeathAnimation = false; 
+    }
 }

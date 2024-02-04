@@ -26,17 +26,19 @@
   "physicsRestitution": 0.1,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsShapePoints": [],
+  "physicsShapePoints": [
+    {"x":0.0,"y":0.0,},
+    {"x":42.0,"y":0.0,},
+    {"x":42.0,"y":60.0,},
+    {"x":0.0,"y":60.0,},
+  ],
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sEnemy_alien_idle",
-    "path": "sprites/sEnemy_alien_idle/sEnemy_alien_idle.yy",
+    "name": "sEnemy_alien_run",
+    "path": "sprites/sEnemy_alien_run/sEnemy_alien_run.yy",
   },
-  "spriteMaskId": {
-    "name": "sEnemy_alien_idle",
-    "path": "sprites/sEnemy_alien_idle/sEnemy_alien_idle.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }
