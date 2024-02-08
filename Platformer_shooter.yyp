@@ -36,10 +36,12 @@
   },
   "resources": [
     {"id":{"name":"sEnemy_alien_dead","path":"sprites/sEnemy_alien_dead/sEnemy_alien_dead.yy",},},
+    {"id":{"name":"sHorizon","path":"sprites/sHorizon/sHorizon.yy",},},
     {"id":{"name":"sPlayer_run","path":"sprites/sPlayer_run/sPlayer_run.yy",},},
     {"id":{"name":"sEnemy_alien_run","path":"sprites/sEnemy_alien_run/sEnemy_alien_run.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"sEnemy_alien_idle","path":"sprites/sEnemy_alien_idle/sEnemy_alien_idle.yy",},},
+    {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"sEnemy_alien_jump","path":"sprites/sEnemy_alien_jump/sEnemy_alien_jump.yy",},},
     {"id":{"name":"sPlayer_jump","path":"sprites/sPlayer_jump/sPlayer_jump.yy",},},
