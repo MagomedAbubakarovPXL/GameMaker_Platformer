@@ -32,6 +32,7 @@
     {"name":"oGun","order":2,"path":"objects/oGun/oGun.yy",},
     {"name":"oBullet","order":3,"path":"objects/oBullet/oBullet.yy",},
     {"name":"sProjectile","order":5,"path":"sprites/sProjectile/sProjectile.yy",},
+    {"name":"oCamera","order":6,"path":"objects/oCamera/oCamera.yy",},
     {"name":"oEnemy","order":4,"path":"objects/oEnemy/oEnemy.yy",},
   ],
 }
